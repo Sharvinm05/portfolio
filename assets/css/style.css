@@ -134,9 +134,9 @@ h6 {
   }
 
   #header .social-links {
-    /* margin-top: 15px; */
-    position: fixed;
-    bottom: 8%;
+    margin-top: 15px;
+    /* position: fixed;
+    bottom: 8%; */
   }
 
   #header .container {
