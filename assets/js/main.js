@@ -249,5 +249,27 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+  
+  
 
 })()
+
+function downloadFile(url, fileName) {
+  // Create a temporary link element
+  var link = document.createElement('a');
+
+  // Set the download attribute and file name
+  link.download = fileName;
+  
+  // Set the href attribute to the file URL
+  link.href = url;
+
+  // Append the link to the body
+  document.body.appendChild(link);
+
+  // Trigger a click on the link to start the download
+  link.click();
+
+  // Remove the link from the DOM
+  document.body.removeChild(link);
+}
