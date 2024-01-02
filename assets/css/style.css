@@ -1211,9 +1211,10 @@ section .container {
     display:grid;
     flex-direction: row;
     color: #04040400;
+    white-space: nowrap;
   }
   .down-links a .bi-dot {
-    display:contents ;
+    display:grid;
   }
 }
 
