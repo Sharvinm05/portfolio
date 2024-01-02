@@ -1187,3 +1187,11 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.creds{
+  background-color: #040404a5;
+  width: fit-content;
+  float: right;
+  padding: 0 10px;
+  border-radius: 10px;
+}
