@@ -1179,6 +1179,15 @@ section .container {
   border-radius: 10px;
 }
 
+.down-links{
+  display: flex;
+  flex-direction: row;
+  color:#15bb62;
+}
+.down-links a .bi-dot {
+  display: none;
+}
+
 @media (max-width: 992px) {
   .credits {
     text-align: center;
@@ -1196,6 +1205,15 @@ section .container {
     align-items: center;
     text-align: center;
     justify-content: center;
+  }
+
+  .down-links{
+    display:grid;
+    flex-direction: row;
+    color: #04040400;
+  }
+  .down-links a .bi-dot {
+    display:contents ;
   }
 }
 
