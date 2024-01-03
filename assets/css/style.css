@@ -1020,7 +1020,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #18d26e;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
@@ -1030,11 +1030,36 @@ section .container {
   color: #fff;
   line-height: 24px;
   font-size: 14px;
-  margin: 0 0 0 68px;
+  margin: 5px 0 5px 68px;
+}
+
+.contact .mail-link{
+  box-shadow: inset 0 0 0 0 #18d26e;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.contact .mail-link2{
+  box-shadow: inset 0 0 0 0 #18d26e;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+
+.contact .mail-link:hover{
+
+  box-shadow: inset 230px 0 0 0 #18d26e;
+  color: white;
+  
+}
+
+.contact .mail-link2:hover{
+
+  box-shadow: inset 230px 0 0 0 #18d26e;
+  color: #;
+  
 }
 
 .contact .info-box .social-links {
-  margin: 5px 0 0 68px;
+  margin: 15px 0 0 68px;
   display: flex;
 }
 
@@ -1049,6 +1074,7 @@ section .container {
 
 .contact .info-box .social-links a:hover {
   color: #18d26e;
+  transform: scale(1.5);
 }
 
 .contact .php-email-form {
