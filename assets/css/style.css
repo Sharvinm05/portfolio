@@ -1031,6 +1031,7 @@ section .container {
   line-height: 24px;
   font-size: 14px;
   margin: 5px 0 5px 68px;
+  word-wrap: break-word;
 }
 
 .contact .mail-link{
@@ -1039,23 +1040,27 @@ section .container {
 }
 
 .contact .mail-link2{
+  font-size: 14px;
   box-shadow: inset 0 0 0 0 #18d26e;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 
 .contact .mail-link:hover{
-
   box-shadow: inset 230px 0 0 0 #18d26e;
-  color: white;
-  
+  color: white; 
 }
 
-.contact .mail-link2:hover{
-
+ .mail-link2:hover{
   box-shadow: inset 230px 0 0 0 #18d26e;
-  color: #;
-  
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .contact .info-box p{
+    font-size: 12px;
+  }
+
 }
 
 .contact .info-box .social-links {
